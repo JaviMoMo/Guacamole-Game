@@ -5,13 +5,22 @@
     margin: 0;
     padding: 0;
     font-family: 'McLaren', cursive;
+   
+    
 }
 
 header{
-    font-size: 50px;
+    font-size: 110%;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    background-image: url("./assets/21442.jpg");
+    border: rgb(80, 94, 0) 10px solid;
+}
+
+header h1{
+    color: rgb(80, 94, 0);
+
 }
 
 .marcador{
@@ -21,24 +30,72 @@ header{
     justify-content: center;
 }
 
+.marcador h2{
+    color: rgb(80, 94, 0);
+}
+
+.container-time{
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+}
+
+#title-crono{
+    color: rgb(80, 94, 0);
+    font-size: 20px;
+}
+#crono{
+    color: rgb(80, 94, 0);
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+#container-endTitle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#endTitle{
+   
+    margin: 50px;
+    background-image: url("./assets/21442.jpg");
+    border: rgb(80, 94, 0) 0px solid;
+    color: rgb(80, 94, 0);
+    margin: 10px;
+    font-size: 100px;
+}
+
 .marcador #points{
     margin-left: 30px;
 }
 
-.container{
-    display: flex;
-    width: 100%;
+body{
+    background-image: url("./assets/texture-tree-roots-forest-1405741.jpg");
+    background-position: center;
+    text-align: center;
     justify-content: center;
-    
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.fila1{
+    margin-left: 15px;
+}
 .container-topo{
-    width: 300px;
-    border: black 5px solid;
+    width: 70%;
+    margin-left: 30px;
     border-radius: 50%;
     margin: 10px;
-    justify-content: space-around;
-    background-image: url("./forest-floor-textura-fondo-104268982.jpg");
+    justify-content: center;
+    background-image: url("./assets/agujero.jpg");
+    background-position: center;
+
 }
 
 img{
@@ -55,4 +112,19 @@ img{
 
 #topo{
     visibility:hidden;
+}
+
+.button{
+    width: 500px;
+    height: 200px;
+    font-size: 30px;
+    color: rgb(80, 94, 0);
+}
+
+.button{
+    border: black 5px solid;
+    margin: 50px;
+    background-image: url("./assets/21442.jpg");
+    border: rgb(80, 94, 0) 10px solid;
+    text-align: center;
 }
