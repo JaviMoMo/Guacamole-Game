@@ -51,14 +51,14 @@ function generate(){
     let random = topos[Math.floor(Math.random() * topos.length)];
     random.style.visibility='visible';
 }
-let aleatorio = setInterval(generate, 500);
+let aleatorio = setInterval(generate, 1000);
 
 function byeTopo(){
     let random = topos[Math.floor(Math.random() * topos.length)];
     random.style.visibility='hidden';
 }
 
-setInterval(byeTopo, 100);
+setInterval(byeTopo, 500);
 
 function press(){
        increment(++contador)
